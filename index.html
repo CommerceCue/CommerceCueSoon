@@ -21,7 +21,6 @@
                         <a href="#"><li>Affiliates</li></a>
                         <a href="#"><li>Pricing</li></a>
                         <a href="#"><li>Communities</li></a>
-                        <a href="#" class="purple-btn-link"><li>Join Waitlist</li></a>
                     </ul>
                 </div>
             </nav>
@@ -34,8 +33,13 @@
                     <h1>Build a highly engaged community with no effort.</h1>
                     <p>Commune offers the tools you need to build a highly engaged community with little to no effort. Simply setup your Commune workspace, and manage everything from members to content from one central dashboard.</p>
                     <div class="input-container">
-                        <input type="email" name="email" id="email" placeholder="Enter your e-mail address">
-                        <a href="#" class="purple-btn-link"><li>Join Waitlist</li></a>
+                        <form 
+                            method="POST" 
+                            action="https://script.google.com/macros/s/AKfycbyfy0LxJxULrIwU1LUEDA-sL7yHnH0a_t-MacIpqYNmG4ldFDPUQpdfKeC0gQrknLfj/exec">
+                            <input type="email" name="Email" id="email" placeholder="Enter your e-mail address" required>
+                            <input name="Name" type="text" placeholder="Name" required>
+                            <button type="submit" class="purple-btn-link">Join Waitlist</button>
+                        </form>
                     </div>
                 </div>
             </div>
